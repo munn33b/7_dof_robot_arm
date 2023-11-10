@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+    <gazebo reference="base_link">
+        <material>Gazebo/Blue</material>
+        <color rgba="0 0 1 1"/>
+    </gazebo>
+    <gazebo reference="Link_1_1_link">
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="Link_2_1_link">  
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="Link_3_1_link">
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="Link_4_1_link">
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="Link_5_1_link">
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="Link_6_1_link">
+        <material>Gazebo/Purple</material>
+        <color rgba="1 0 1 1"/>
+    </gazebo>
+    <gazebo reference="Gripper_link">
+        <material>Gazebo/Red</material>
+        <color rgba="1 0 0 1"/>
+    </gazebo>
+    <gazebo reference="left_jaw_link">
+        <material>Gazebo/Black</material>
+        <color rgba="0 0 0 1"/>
+    </gazebo>
+    <gazebo reference="right_jaw_link">
+        <material>Gazebo/Black</material>
+        <color rgba="0 0 0 1"/>
+    </gazebo>
+</robot>
